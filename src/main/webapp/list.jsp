@@ -59,10 +59,10 @@
     <br>
     <div class="text-center">
         <button type="button" class="btn btn-default btn-inverse"
-                      onclick="last_page()"><
+                onclick="last_page()"><
             <上一页
         </button>
-      <span>&nbsp;&nbsp;<%=cur_page%>/<%=pagecount%>&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;<%=cur_page%>/<%=pagecount%>&nbsp;&nbsp;</span>
         <button type="button" class="btn btn-default btn-inverse"
                 onclick="next_page()">下一页>>
         </button>
